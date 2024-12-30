@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audit_trails",
+  "info": {
+    "singularName": "audit-trail",
+    "pluralName": "audit-trails",
+    "displayName": "audit trail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "apikey": {
+      "type": "string"
+    },
+    "action": {
+      "type": "text"
+    },
+    "pdfdata": {
+      "type": "json"
+    }
+  }
+}

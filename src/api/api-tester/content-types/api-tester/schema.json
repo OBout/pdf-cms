@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "api_testers",
+  "info": {
+    "singularName": "api-tester",
+    "pluralName": "api-testers",
+    "displayName": "Api Tester"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ip": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}
